@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://i.ibb.co/JrRtgjb/batu-karas-beach.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+    color: #ffeb3b;
+}
+
+.date, .location, .message, .note {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+a {
+    color: #ff9800;
+    text-decoration: none;
+}
